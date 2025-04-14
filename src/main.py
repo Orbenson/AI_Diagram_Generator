@@ -54,9 +54,7 @@ async def assistant_chat(request: Request):
         raise HTTPException(status_code=500, detail="Agent not available")
 
     try:
-        # CompiledStateGraph → use .invoke(), passing the message list
         state = agent_chain.invoke({"messages": [("user", message)]})
-        # The agent returns state dict; get the last assistant message
         last_msg = state["messages"][-1]
         assistant_text = getattr(last_msg, "content", str(last_msg))
 
