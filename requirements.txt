@@ -1,0 +1,27 @@
+# --- Web framework ---
+fastapi>=0.110
+
+# --- ASGI server ---
+uvicorn[standard]>=0.29
+
+# --- LangChain core & provider packages ---
+langchain>=0.1.17
+langgraph>=0.0.38
+langchain-google-genai>=0.0.8
+langchain-huggingface>=0.0.6
+
+# --- LLM & ML stack ---
+transformers>=4.40
+torch>=2.2.0      
+numpy<2           
+
+# --- Diagram generation ---
+diagrams>=0.23
+
+# --- Settings & env handling ---
+pydantic-settings>=2.1
+python-dotenv>=1.0
+
+# --- Testing (optional but recommended) ---
+pytest>=8.2
+pytest-asyncio>=0.23
