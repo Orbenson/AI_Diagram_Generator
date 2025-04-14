@@ -21,8 +21,7 @@ ai-diagram-generator/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── requirements.txt
-├── .env.example
-└── README.md              # You’re here!
+└── README.md           
 ```
 
 ---
