@@ -219,6 +219,6 @@ docker run -p 8000:8000 --env GOOGLE_API_KEY=YOUR_KEY ai-diagram-generator
 
 MIT – free to use, modify, and launch your own LLM-powered diagram service.
 
---- 
 
-Let me know if you'd like a one-click Postman collection `.json` file exported too!
+
+
