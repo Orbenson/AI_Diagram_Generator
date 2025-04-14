@@ -20,6 +20,7 @@ ai-diagram-generator/
 ├── outputs/               # PNG files created by the app
 ├── Dockerfile
 ├── docker-compose.yml
+├── .env
 ├── requirements.txt
 └── README.md           
 ```
